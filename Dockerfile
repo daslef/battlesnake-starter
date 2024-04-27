@@ -1,4 +1,4 @@
-FROM python:3.10.6-slim
+FROM --platform=linux/amd64 python:3.10.6
 
 # Install app
 COPY . /usr/app
